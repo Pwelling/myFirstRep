@@ -1,0 +1,29 @@
+.cardContainer {
+	width: 312px;
+	display: block;
+}
+.rowContainer {
+	width: 312px;
+	display: block;
+}
+.numberContainer {
+	width: 50px;
+	display: block;
+	float: left;
+	border: 1px solid #000000;
+}
+.numberContainer.drawn{
+	background-color: #FFFF00;
+}
+.numberContainer.drawnWon.drawn, .drawnRow.drawn {
+	background-color: #008000;
+}
+
+#bingoTitle {
+	display: none;
+}
+
+button {
+	padding-top: 20px;
+	display:block;
+}
